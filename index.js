@@ -31,3 +31,12 @@ console.log(myMap);
 // console.log(USER_MAP[1]);
 
 // Read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/Map
+
+// Another example using Objects properly in JS
+// This code is not the best way
+// const example = {}
+// example ["thing"] = {stuf: "hi"}
+
+// This is code is the best way
+// const example = new Map();
+// example.set("thing", {stuff: "hi"};)
